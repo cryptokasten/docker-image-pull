@@ -12,13 +12,13 @@
 
 #+BEGIN_SRC sh
 IMAGE="node"
-VERSION="10-stretch"
+TAG="10-stretch"
 #+END_SRC
 
 ** Docker image pull
 
 #+BEGIN_SRC sh
-docker image pull $IMAGE:$VERSION
+docker image pull $IMAGE:$TAG
 #+END_SRC
 
 ** Download image with all tags
